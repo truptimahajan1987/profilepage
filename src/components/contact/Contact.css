@@ -1,0 +1,42 @@
+#contact{
+    background-color: lightblue;
+    display: flex;
+}
+   #contact .leftc{
+        flex:1;
+        height: 100%;
+    }
+   .rightc{
+        flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+   }
+   
+        .formc{
+            width:70%;
+            Height:50%;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            flex-direction: column;
+        }
+            .formc input{
+                width:300px;
+                height:30px;
+                font-size:14px;
+            }
+            .formc textarea{
+                width:300px;
+                height:200px;
+                font-size:14px;
+            }
+            .formc button{
+                width:150px;
+                height: 30px;
+                color: aliceblue;
+                background-color: crimson;
+            }
+
+        
